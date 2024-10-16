@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background: rgb(1, 1, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width:100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    max-height: 150px;
+}
+
+img {
+    max-width: 120px;
+    max-height: 50px;
+    margin: 0 0 0 auto;
+    object-fit: cover;
+    flex-basis: auto;
+    flex-shrink: 0;
+}
+
+li {
+    list-style:none;
+}
+
+#QuizTitle  {
+    color: rgb(228, 167, 53);
+    font-weight: bold; 
+}
+
+.heading {
+    color: white;
+    display: flex;
+    gap: 3px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#QuizTitle #info #Title-html #Title-css {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+a:hover {
+    color:rgb(1, 1, 39);
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+   margin-bottom: -5px;
+}
+
+hr {
+    height: 3px;
+    border-radius: 20px;
+    background: rgb(167, 165, 161)
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+
+.main-purpose {
+    width: 100%;
+    background: rgba(224, 224, 235, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-purpose #student_information {
+    width: 600w;
+
+}
+
+.main-purpose #html_questions {
+    width: 600w;
+}
+
+.main-purpose #css_questions {
+    width: 600w; 
+}
+
+#sendButton {
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+footer {
+    color: rgb(197, 197, 234);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

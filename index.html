@@ -1,0 +1,138 @@
+<!--THIS PROJECT IS ABOUT THE PAGE OF THE HTML AND CSS QUIZ-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Quiz</title>
+    <link rel="stylesheet" href="mystyles.css"/>
+</head>
+<div class="all">
+<body>
+
+    <!-- THIS PART SHOWS WHAT WILL BE DISPLAYED ON TOP OF THE PAGE-->
+
+    <header>
+        <img src="FCClogo.png" alt="Free Code Camp Logo"/>
+        <ul>
+        <div class="heading"> 
+            <li id="QuizTitle">HTML/CSS Quiz</li>
+            <li id="info"><a href="#student_information">INFO</a></li>
+            <li id="Title-html"><a href="#html_questions">HTML</a></li>
+            <li id="Title-css"><a href="#css_questions">CSS</a></li>        
+        </ul>
+        </div>    
+    </header>
+
+    <!--THIS SECTION SHOWS WHERE STUDENT WILL HIS OR HER DATA-->
+    
+    <div class="main-purpose">
+
+    <section id="student_information">
+        <div class="data">
+        <div>
+        <h1>Student Info</h1>
+        <hr>
+        </div>
+        <div>
+        <label for="names">Name:</label>
+        <input type="text" id="names" placeholder="Enter your name here" name="Name"/>
+        </div>
+        <div>
+        <label for="e-mail">Email:</label>
+        <input type="email" id="e-mail" placeholder="example@gmail.com" name="Email"/>
+        </div>
+        <div>
+        
+        <span>Date of<br>Birth:</span>
+        <label for="date-of-birth"></label>
+        
+        <input type="date" id="date-of-birth" name="Date" style="width:170px"/>
+        </div>
+        </div>
+    </section>
+
+    <!--THIS SECTION PROVIDES HTML QUESTIONS-->
+
+    <section id="html_questions">
+        <div class="data">
+        <div>
+        <h1>HTML</h1>
+        <hr>
+        </div>
+        <div>
+        <h2>Question #1</h2>
+        </div>
+        <div>
+        <p>
+            The legend element represents a caption 
+            for the content of its parent fieldset element
+        </p>
+        </div>
+        <div>
+        <input type="radio" id="html-question1True" name="HTML-question1">
+        <label for="html-question1True">True</label>
+        </div>
+        <div>
+        <input type="radio" id="html-question1False" name="HTML-question1">
+        <label for="html-question1False">False</label>
+        </div>
+        <div>
+        <h2>Question #2</h2>
+        </div>
+        <div>
+        <p>
+            A label element nesting an input element is required to 
+            have a for attribute with the same value as the input's id
+        </p>
+        </div>
+        <div>
+        <input type="radio" id="html-question2True" name="HTML-question2"/>
+        <label for="html-question2True">True</label>
+        </div>
+        <div>
+        <input type="radio" id="html-question2False" name="HTML-question2"/>
+        <label for="html-question2False">False</label>
+        </div>
+        </div>
+    </section>
+
+    <!--THIS SECTION PROVIDES CSS QUESTIONS -->
+    <div class="data">
+    <section id="css_questions">
+        <div>
+        <h1>CSS</h1>
+        <hr>
+        </div>
+        <div>
+        <p>
+            Can the CSS margin property accept negative values?
+        </p>
+        </div>
+        <div>
+        <select id="options">
+            <option>Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        </div>
+        <div>
+        <p style="margin-bottom:0">Do you have any questions:</p>
+        <textarea rows="5" cols="30"></textarea>
+        </div>
+        <input id="sendButton" type="submit" value="Send"/>
+        </div>
+    </section>
+    </div>
+    <footer>
+        <address>
+            <p><a href="https://www.freecodecamp.org/"/>freecodecamp</a></p>
+            <p>San Francisco</p>
+            <p>California</p>
+            <p>USA</p>
+        </address>
+    </footer>
+</body>
+</div>
+</html>
