@@ -99,7 +99,6 @@ hr {
 .data {
     display: flex;
     flex-direction: column;
-    gap: 5px;
     flex-wrap: wrap;
     flex-grow: 0;
     flex-shrink: 1;
